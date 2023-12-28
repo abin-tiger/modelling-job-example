@@ -22,3 +22,5 @@ model.fit(X, y)
 joblib.dump(model, "model.joblib")
 
 print("Model successfully trained and saved to model.joblib")
+
+raise Exception("General exception")
